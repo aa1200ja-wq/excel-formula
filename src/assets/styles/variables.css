@@ -1,0 +1,55 @@
+:root {
+  color-scheme: light;
+  --color-primary: #168f5c;
+  --color-primary-strong: #0c7246;
+  --color-primary-soft: #eaf8f0;
+  --color-blue: #3179d6;
+  --color-blue-soft: #edf5ff;
+  --color-orange: #ef8d25;
+  --color-orange-soft: #fff4e8;
+  --color-purple: #7256c8;
+  --color-purple-soft: #f3efff;
+  --color-yellow: #f5b83b;
+  --color-yellow-soft: #fff8e8;
+  --color-pink-soft: #fff1f3;
+  --color-text: #14243b;
+  --color-text-soft: #617087;
+  --color-line: #dfe7ee;
+  --color-surface: #ffffff;
+  --color-surface-2: #f8fafc;
+  --color-page: #f5f8fb;
+  --color-code: #26384b;
+  --color-hero-soft: #eff8ff;
+  --color-guide-soft: #fff8e9;
+  --shadow-card: 0 12px 30px rgba(31, 58, 88, 0.08);
+  --shadow-soft: 0 4px 14px rgba(31, 58, 88, 0.06);
+  --radius-xl: 24px;
+  --radius-lg: 18px;
+  --radius-md: 14px;
+  --content-width: 1240px;
+  --mobile-nav-height: 76px;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-primary: #50c98c;
+  --color-primary-strong: #7be0ac;
+  --color-primary-soft: #173f2d;
+  --color-blue: #79aef2;
+  --color-blue-soft: #192e49;
+  --color-orange-soft: #442d19;
+  --color-purple-soft: #30294a;
+  --color-yellow-soft: #41351c;
+  --color-pink-soft: #40242a;
+  --color-text: #ecf3f8;
+  --color-text-soft: #aab9c8;
+  --color-line: #344553;
+  --color-surface: #1b2731;
+  --color-surface-2: #23323e;
+  --color-page: #111a22;
+  --color-code: #e4eef6;
+  --color-hero-soft: #182b39;
+  --color-guide-soft: #2a281f;
+  --shadow-card: 0 14px 36px rgba(0, 0, 0, 0.28);
+  --shadow-soft: 0 5px 16px rgba(0, 0, 0, 0.22);
+}
