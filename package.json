@@ -1,0 +1,26 @@
+{
+  "name": "excel-formula-first-aid",
+  "private": true,
+  "version": "1.0.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/generate-sw.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 43450 --strictPort",
+    "check": "node scripts/verify-core.mjs",
+    "check:dark-css": "npm run build --silent && node scripts/verify-dark-css.mjs",
+    "check:pwa": "node scripts/verify-pwa.mjs",
+    "check:flow": "node scripts/verify-screen-flow.mjs",
+    "verify": "npm run check && npm run check:dark-css && npm run check:pwa && npm run check:flow && node scripts/verify-release.mjs && node scripts/verify-dist.mjs"
+  },
+  "dependencies": {
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "vite": "^7.0.4"
+  },
+  "overrides": {
+    "esbuild": "^0.28.1"
+  }
+}
